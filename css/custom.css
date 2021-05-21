@@ -1,0 +1,485 @@
+/* Add here all your CSS customizations */
+:root {
+    --primary-color: #de842d;
+    --secondary-color: #5cafd1;
+    --tertiary-color: #00993e;
+    --black-color: #000000;
+    --white-color: #FFFFFF;
+  }
+  
+.linkedin:hover{
+  color:var(--secondary-color);
+  text-decoration: none;
+  align-items: center;
+}
+.footer-distributed {
+    background-color: #352F2F;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font: bold 16px biryani;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 55px 50px;
+  }
+  
+  .footer-distributed .footer-left,
+  .footer-distributed .footer-center,
+  .footer-distributed .footer-right {
+    display: inline-block;
+    vertical-align: top;
+  }
+  
+  /* Footer left */
+  
+  .footer-distributed .footer-left {
+    width: 30%;
+  }
+  
+  /* The company logo */
+  
+  .footer-distributed h3 {
+    color: #ffffff;
+    font: normal 36px "Cookie", cursive;
+    margin: 0;
+  }
+  
+  .footer-distributed h3 span {
+    color: #5383d3;
+  }
+  
+  /* Footer links */
+  
+  .footer-distributed .footer-links {
+    color: #ffffff;
+    margin: 20px 0 12px;
+    padding: 0;
+  }
+  
+  .footer-distributed .footer-links a {
+    display: inline-block;
+    line-height: 1.8;
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .footer-distributed .footer-company-name {
+    color: #8f9296;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+  }
+  
+  /* Footer Center */
+  
+  .footer-distributed .footer-center {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+  }
+
+.footer__address{
+    flex-direction: row;
+    align-items: flex-start;
+    display: inline-flex;
+}
+
+.footer__phone{
+    align-items: baseline;
+    display: inline-flex;
+}
+
+.footer__mail{
+    align-items:baseline;
+    display: inline-flex;
+}
+  
+  
+  .footer-distributed .footer-center i {
+    background-color: #33383b;
+    color: #ffffff;
+    font-size: 18px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 42px;
+    margin: 10px 15px;
+  }
+  
+  .footer-distributed .footer-center i.fa-envelope {
+    font-size: 17px;
+    line-height: 38px;
+  }
+  
+  .footer-distributed .footer-center p {
+    flex-direction: column;
+    font-family: "Sintony", sans-serif;
+    font-weight: 100;
+    color: #ffffff;
+    margin: 0;
+  }
+  
+  .footer-distributed .footer-center span {
+    font-weight: normal;
+    font-size: 14px;
+    color: var(--white-color);
+    line-height: 2;
+    flex-wrap: wrap;
+  }
+  
+  .footer-distributed .footer-center p a {
+    color: var(--white-color);
+    text-decoration: none;
+  }
+  
+  /*contact*/
+  
+
+  
+ /*contact*/
+ 
+@media only screen and (max-width: 767px){
+  #contact{
+    display:flex;
+    flex-direction: column;
+    padding-top: 50px;
+  }
+  
+  #contact p{
+      margin-left:20px;
+      font-family: 'Playfair Display', ariel; 
+      font-size: 16px;
+      font-weight: 200;
+      color:black;
+  }
+  
+  #leftbox{
+  
+    width: auto;
+    overflow: hidden; 
+    order: 1;
+   }
+  
+   textarea {
+    width: 90%; 
+    margin: 10px;
+    border:1px solid;
+    resize: none; 
+    font-size: 12px;
+    font-family: 'Playfair Display', ariel; 
+   } 
+  
+  
+   #rightbox {
+    
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+   }
+  
+   #send input{
+    position: relative;
+    top: 125px;
+    display: block;
+    margin: 30px 30px 0px 10px;
+    height: 40px;
+    width: 90px;
+    background-color: #404040;
+    color: white;
+    border-style: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Playfair Display', ariel; 
+    letter-spacing: 2px;
+  
+  }
+  
+  .line {
+    position:relative;
+    top: -250px;
+    height: 200px;
+    z-index: 10;
+  }
+  
+  #input {
+    padding-top: 180px;
+  }
+  
+  #input input {
+    margin: 20px 20px 40px 10px;
+    display: block;
+    width: 300px;
+    font-size: 16px;
+    border: 1px solid;
+    font-family: 'Playfair Display', ariel; 
+  }
+  
+  #bigcard{
+      color:black;
+      font-weight:Bold;
+  }
+}
+
+
+
+
+@media only screen and (min-width: 768px){
+
+  #contact {
+    max-width: 1920px;
+    margin: auto;
+   }
+  
+   #contact p {
+    text-align: center;
+    font-family: helvetica, arial;
+    font-size: 16px;
+    font-weight: 200;
+    color: white;
+   }
+  
+  
+   #card{
+      background: white;
+    margin: auto;
+    height: 400px;
+    width: 650px;
+    border: solid 3px black;
+    position: relative;
+    
+   }
+  
+   #leftbox{
+    float: left;
+    width: 49%;
+    overflow: hidden;
+    
+   }
+  
+   textarea {
+    margin: 20px;
+    border:none;
+    resize: none; 
+    font-size: 12px;
+      font-family: 'Playfair Display', ariel; 
+   }
+  
+  
+  
+   #rightbox {
+    float: right;
+    width: 50%;
+   }
+  
+  
+  #send input{
+    float: right;
+    display: block;
+    margin: 20px;
+    height: 90px;
+    width: 70px;
+    background-color: #404040;
+    color: white;
+    border-style: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: helvetica, arial;
+    letter-spacing: 2px;
+  
+  }
+  
+  .line {
+    margin-top: 10%;
+    height: 340px;
+    border-left: solid 1px black;
+  }
+  
+  #input {
+    padding-top: 180px;
+  }
+  
+  #input input {
+    margin: 20px 20px 40px 30px;
+    display: block;
+    width: 265px;
+    font-size: 16px;
+    border: none;
+    border-bottom: dotted 2px black;
+      font-family: 'Playfair Display', ariel; 
+  }
+  
+  #bigcard{
+      color:black;
+      font-weight:Bold;
+  }
+}
+
+
+  
+  /* Footer Right */
+  
+  .footer-distributed .footer-right {
+    width: 20%;
+  }
+  
+  .footer-distributed .footer-company-about {
+    line-height: 20px;
+    color: #92999f;
+    font-size: 13px;
+    font-weight: normal;
+    margin: 0;
+  }
+  
+  .footer-distributed .footer-company-about span {
+    display: block;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .footer-distributed .footer-icons {
+    margin-top: 25px;
+  }
+  
+  .footer-distributed .footer-icons a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    background-color: #33383b;
+    border-radius: 2px;
+  
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+  
+    margin-right: 3px;
+    margin-bottom: 5px;
+  }
+
+
+  /* Footer Responsive */
+  
+  @media (max-width: 880px) {
+    .footer-distributed {
+      font: 14px Biryani;
+    }
+  
+    .footer-distributed .footer-left,
+    .footer-distributed .footer-center,
+    .footer-distributed .footer-right {
+      display: block;
+      width: 100%;
+      margin-bottom: 40px;
+      text-align: center;
+    }
+  
+    .footer-distributed .footer-center i {
+      margin-left: 0;
+    }
+  }
+
+.footer__credits a{
+    font-size: 1.2rem;
+    font-weight: lighter;
+    color:rgb(173, 173, 173) !important;
+    text-decoration: none !important;
+}
+
+.heading__orange{
+  color: var(--primary-color);
+}
+
+.bg1-overlay{
+  position: relative;
+  background-image: url("../img/background/microscope.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.founder-overlay{
+  position: relative;
+  background-image: url("../img/background/fromFounder.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.about-overlay{
+  position: relative;
+  background-image: url("../img/gallery/dish.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bg-portfolioimg{
+  position: relative;
+  background-image: url("../img/background/black.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.portfolioimg{
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+}
+
+.bg-contactform{
+  position: relative;
+  background-image: url("../img/background/contactform.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+h1.crop{
+     word-wrap: break-word;
+     -webkit-hyphens: auto;
+     -moz-hyphens: auto;
+     -ms-hyphens: auto;
+     -o-hyphens: auto;
+     hyphens: auto;
+}
+
+.text-color-green {
+    color: #a8e6cf;
+}
+
+.text-color-red {
+    color: #d63447;
+}
+
+.text-color-yellow {
+    color: #FFDE00;
+}
+
+.text-color-pink {
+    color: #e44b9b;
+}
+
+#text-color-white{
+    color:	#FFFFFF !important;
+}
+
+.jumbotron {
+  color: white;
+  background-image: url("../img/background/microscopeCells.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+#onco-jumbotron{
+  color: #FFFFFF !important;
+  font-size: 4rem;
+  font-weight: bold;
+  margin-top: 5% !important;
+  margin-bottom: auto;
+}
