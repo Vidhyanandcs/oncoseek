@@ -88,6 +88,11 @@
 														</a>
 													</li>
 													<li>
+														<a class="nav-link" href="service.html">
+															Services
+														</a>
+													</li>
+													<li>
 														<a class="nav-link" href="advisors.html">
 															Advisors
 														</a>
@@ -185,6 +190,7 @@
 						<p class="footer-links">
 							<a href="index.html">Home</a> ·
 							<a href="aboutus.html">About</a> ·
+							<a href="service.html">Services</a> ·
 							<a href="advisors.html">Advisors</a> ·
 							<a href="science.html">Our Science</a> ·
 							<a href="gallery1.html">Gallery</a> ·
