@@ -98,7 +98,7 @@
                                                     </li>
 													<li>
 														<a class="nav-link" href="service.html">
-															Services
+															Our Services
 														</a>
 													</li>
 													<li>
