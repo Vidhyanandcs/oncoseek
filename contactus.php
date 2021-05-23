@@ -92,13 +92,13 @@
 														</a>
 													</li>
 													<li>
+                                                        <a class="nav-link" href="science.html">
+                                                                Our Science
+                                                        </a>
+                                                    </li>
+													<li>
 														<a class="nav-link" href="service.html">
 															Services
-														</a>
-													</li>																	
-													<li>
-														<a class="nav-link" href="science.html">
-															Our Science
 														</a>
 													</li>
 													<li>
