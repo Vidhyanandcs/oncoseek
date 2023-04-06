@@ -1129,3 +1129,15 @@ ul.custom-comments-style .comment-block {
 #custom-color-white{
     color:#FFFFFF !important;
 }
+
+.flex-container {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	padding: 10px;
+}
+  
+  /* to center flex-items */
+.flex-item {
+	margin: auto;
+}

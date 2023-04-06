@@ -190,21 +190,22 @@
 							<a href="aboutus.html">About</a> ·
 							<a href="advisors.html">Advisors</a> ·
 							<a href="service.html">Services</a> ·
-							<a href="science.html">Our Science</a> ·
+							<a href="science.html">Our Science</a>.
+							<a href="partners.html">Partners</a>.
 							<a href="gallery1.html">Gallery</a> ·
 							<a href="news.html">News</a> ·
 							<a href="contactus.php">Contact Us</a>
 						</p>
-		
-						<p class="footer-company-name">Oncoseek Bio &copy; 2018-2020</p>
+	
+					<p class="footer-company-name">Oncoseek Bio &copy; 2018-2023</p>
 					</div>
 		
 					<div class="footer-center">
 		
-						<div class="footer__address">
-							<i class="fa fa-map-marker"></i>
-							<p>Room No.21 B, ASPIRE - BioNEST, <br>Third Floor, School of Life Sciences, <br>University of Hyderabad, Gachibowli,<br>Hyderabad-500046, TS, India. &nbsp</p>
-						</div>
+					<div class="footer__address">
+						<i class="fa fa-map-marker"></i>
+						<p>Plot No. 9 & 12 Layout vide TP No. 9/74, <br>Survey No. 119, <br>Krishna Nagar,Maharani Peta,<br>Visakhapatnam, India. &nbsp</p>
+					</div>
 		
 						<div class="footer__phone">
 							<i class="fa fa-phone"></i>
@@ -242,10 +243,6 @@
 						<div class="footer-icons">
 				
 									<a href="https://in.linkedin.com/in/oncoseekbio-pvt-ltd-803309186" target="blank"><i class="fa fa-linkedin"></i></a>
-						</div>
-
-						<div>
-								<a href="https://www.wrefresh.in/">Powered by WRefresh</a>
 						</div>
 					</div>
 				</footer>
