@@ -142,13 +142,12 @@
 						</div>
 					</div>
 				</section>
-
 				<section class=" pt-4 pb-4">
 					<div class="container">
 						<div class="row">
 							
 							<div class="col-lg-12">
-							    <h2 class="text-center"> Meet us at BioNEST UoH and Atal Incubation Center CCMB</h2>
+							    <h2 class="text-center"> Meet us at VCR Park Vishakhapatnam</h2>
 								<div id="contact">
 									<p id="bigcard" class="font-weight-bold">We'd love to get a card from you!</p>
 							  
