@@ -483,3 +483,15 @@ h1.crop{
   margin-top: 5% !important;
   margin-bottom: auto;
 }
+
+.partner-flex-container {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	padding: 10px;
+}
+  
+  /* to center flex-items */
+.partner-flex-item {
+	margin: auto;
+}

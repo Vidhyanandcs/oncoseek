@@ -1125,19 +1125,6 @@ ul.custom-comments-style .comment-block {
 	line-height: 1.6;
 }
 
-
 #custom-color-white{
     color:#FFFFFF !important;
-}
-
-.flex-container {
-	display: flex;
-	flex-flow: row wrap;
-	justify-content: space-between;
-	padding: 10px;
-}
-  
-  /* to center flex-items */
-.flex-item {
-	margin: auto;
 }
