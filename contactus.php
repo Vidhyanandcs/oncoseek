@@ -132,7 +132,7 @@
 
 			<div role="main" class="main">
 
-				<section class="page-header page-header-modern page-header-background page-header-background-sm parallax overlay overlay-color-dark overlay-show overlay-op-1 my-0" data-plugin-parallax data-plugin-options="{'speed': 1.5}" data-image-src="img/gallery/corridore.jpg">
+				<section class="page-header page-header-modern page-header-background page-header-background-sm parallax overlay overlay-color-dark overlay-show overlay-op-1 my-0" data-plugin-parallax data-plugin-options="{'speed': 1.5}" data-image-src="img/gallery/contact.jpeg">
 					<div class="container">
 						<div class="row my-5">
 							<div class="col-md-12 align-self-center text-center">
