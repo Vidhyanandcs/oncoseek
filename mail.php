@@ -1,7 +1,7 @@
 
 <?php 
 if(isset($_POST['send'])){
-    $to = "vidhyanand@securecerts.in"; // this is your Email address
+    $to = "info@oncoseekbio.com"; // this is your Email address
     $from = $_POST['email']; // this is the sender's Email address
     $name = $_POST['name'];
     $subject = "Form submission";
