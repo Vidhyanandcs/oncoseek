@@ -5,7 +5,7 @@ if(isset($_POST['send'])){
     $email  = $_POST['email'];
     $message = $_POST['message'];
 
-    $mailTo = "info@oncoseekbio.com";
+    $mailTo = "vidhyanand@securecerts.in";
     $headers = "From: Oncoseek Bio Website";
         $txt = "You have received a mail from " .$name."\n\n" .$email."\n\n".$message;
 
