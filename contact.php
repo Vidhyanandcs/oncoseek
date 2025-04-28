@@ -176,7 +176,7 @@
                                     <h3 class="sec-title__title">Feel free to write us anytime</h3><!-- /.sec-title__title -->
                                 </div><!-- /.sec-title -->
                             </div><!-- /.contact-one__top -->
-                            <form class="contact-one__form contact-form-validated form-one background-base wow fadeInUp" data-wow-duration="1500ms" action="mail.php" method="POST">
+                            <form class="contact-one__form contact-form-validated form-one background-base wow fadeInUp" data-wow-duration="1500ms" action="mail.php" method="post">
                                 <div id="input" class="form-one__group">
                                     <div class="form-one__control">
                                         <input type="text" name="name" id="name" placeholder="Your name">

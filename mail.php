@@ -1,17 +1,15 @@
-<?php
 
+<?php 
 if(isset($_POST['send'])){
+    $to = "vidhyanand@securecerts.in"; // this is your Email address
+    $from = $_POST['email']; // this is the sender's Email address
     $name = $_POST['name'];
-    $email  = $_POST['email'];
-    $message = $_POST['message'];
-
-    $mailTo = "vidhyanand@securecerts.in";
-    $headers = "From: Oncoseek Bio Website";
-        $txt = "You have received a mail from " .$name."\n\n" .$email."\n\n".$message;
-
-    mail($mailTo, $name, $txt, $headers);
-    header("Location: contact.php");
-}
-
+    $subject = "Form submission";
+    $message = $name  . " wrote the following:" . "\n\n" . $_POST['message'];
+    $headers = "From:" . $from;
+    mail($to,$subject,$message,$headers);
+    echo "Mail Sent. Thank you " . $name . ", we will contact you shortly.";
+    // You can also use header('Location: thank_you.php'); to redirect to another page.
+    }
 ?>
 
