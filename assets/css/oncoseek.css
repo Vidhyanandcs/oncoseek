@@ -11755,7 +11755,6 @@ body.megamenu-popup-active .mobile-nav__content {
   position: absolute;
   top: 0;
   left: -70px;
-  background: var(--laboix-secondary, #0EBD66);
   animation: topAni 4s ease-in-out infinite;
 }
 .about-two__thumb__item {
